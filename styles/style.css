@@ -1,0 +1,14 @@
+body {
+  box-sizing: border-box;
+  font: size 100%;
+}
+body ::after,
+body ::before {
+  box-sizing: inherit;
+}
+body img {
+  max-width: 100%;
+}
+body a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

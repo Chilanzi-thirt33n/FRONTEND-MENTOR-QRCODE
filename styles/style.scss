@@ -1,0 +1,21 @@
+//************************DEFAULT SETTINGS****************************
+body {
+    box-sizing: border-box;
+    font: size 100%;
+    //**inside body default settings
+     ::after,
+     ::before {
+        box-sizing: inherit;
+    }
+    img {
+        max-width: 100%;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+//*********************VARIABLE DECLARATION STYLES********************
+$background-color: #;
+$primary-color: #fff;
+//***************************MOBILE STYLE*****************************
