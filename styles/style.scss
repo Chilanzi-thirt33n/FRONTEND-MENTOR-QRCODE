@@ -1,7 +1,20 @@
+//*********************VARIABLE DECLARATION STYLES********************
+$White: hsl(0, 0%, 100%);
+$Light-gray: hsl(212, 45%, 89%);
+$Grayish-blue: hsl(220, 15%, 55%);
+$Dark-blue: hsl(218, 44%, 22%);
 //************************DEFAULT SETTINGS****************************
+@font-face {
+    font-family: "Outfit";
+    src: url("../font/Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
 body {
     box-sizing: border-box;
-    font: size 100%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    background-color: $Light-gray;
     //**inside body default settings
      ::after,
      ::before {
@@ -9,13 +22,88 @@ body {
     }
     img {
         max-width: 100%;
+        border-radius: 10px;
     }
     a {
         text-decoration: none;
     }
+    a:link {
+        color: $Dark-blue;
+    }
+    a:visited {
+        color: $Dark-blue;
+    }
+    a:hover {
+        color: $Grayish-blue;
+        text-decoration: underline;
+    }
+    a:active {
+        color: $White;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 22px;
+        color: $Dark-blue;
+    }
+    p {
+        font-weight: 400;
+        font-size: 15px;
+        color: $Light-gray;
+    }
 }
 
-//*********************VARIABLE DECLARATION STYLES********************
-$background-color: #;
-$primary-color: #fff;
 //***************************MOBILE STYLE*****************************
+@media screen and (min-width:345px) {
+    //************** header **************
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    //************** main ***************
+    main {
+        margin: 0 .5em;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20;
+        background-color: $White;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        //********Flex items********
+        figure {
+            flex: auto;
+            padding: 0;
+            margin: .9em;
+        }
+        h1 {
+            padding: .3em 1.3em .5em;
+            margin-bottom: 0;
+            margin-top: .2em;
+        }
+        p {
+            padding: .5em 1.7em 2em;
+            margin-top: 0;
+        }
+    }
+    //************* footer ****************
+    footer {
+        position: relative;
+        top: 3em;
+        p {
+            color: $Grayish-blue;
+            padding: .5em;
+        }
+    }
+}
+
+//*************************** DESKTOP STYLE *******************************
+@media screen and (max-width:1440px) {}
