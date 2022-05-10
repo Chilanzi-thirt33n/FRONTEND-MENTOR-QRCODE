@@ -44,7 +44,7 @@ body p {
   color: hsl(212deg, 45%, 89%);
 }
 
-@media screen and (min-width: 345px) {
+@media screen and (max-width: 501px) {
   header {
     display: flex;
     flex-direction: row;
@@ -56,6 +56,104 @@ body p {
 
   main {
     margin: 0 0.5em;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20;
+    background-color: hsl(0deg, 0%, 100%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  main figure {
+    flex: auto;
+    padding: 0;
+    margin: 0.9em;
+  }
+  main h1 {
+    padding: 0.3em 1.3em 0.5em;
+    margin-bottom: 0;
+    margin-top: 0.2em;
+  }
+  main p {
+    padding: 0.5em 1.7em 2em;
+    margin-top: 0;
+  }
+
+  footer {
+    position: relative;
+    top: 3em;
+  }
+  footer p {
+    color: hsl(220deg, 15%, 55%);
+    padding: 0.5em;
+  }
+}
+@media screen and (min-width: 502px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  main {
+    margin: 3em 28%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20;
+    background-color: hsl(0deg, 0%, 100%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  main figure {
+    flex: auto;
+    padding: 0;
+    margin: 0.9em;
+  }
+  main h1 {
+    padding: 0.3em 1.3em 0.5em;
+    margin-bottom: 0;
+    margin-top: 0.2em;
+  }
+  main p {
+    padding: 0.5em 1.7em 2em;
+    margin-top: 0;
+  }
+
+  footer {
+    position: relative;
+    top: 3em;
+  }
+  footer p {
+    color: hsl(220deg, 15%, 55%);
+    padding: 0.5em;
+  }
+}
+@media screen and (min-width: 1265px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  main {
+    margin: 3em 39%;
     display: flex;
     height: auto;
     flex-direction: column;
