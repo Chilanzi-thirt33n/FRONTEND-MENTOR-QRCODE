@@ -19,6 +19,12 @@ this is a basic Qr code assignment i got for myself to understand more on respon
 ### Screenshot
 Mobile view 345px wide
 ![](/images/Screenshorts/2022-05-12_16-21.png)
+
+
+
+
+
+
 Desktop view  1440px wide
 ![](/images/Screenshorts/2022-05-12_16-21_1.png)
 
