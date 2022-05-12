@@ -31,7 +31,7 @@ Desktop view  1440px wide
 ### Links
 
 - Solution URL: [FRONTEND-MENTOR-QR](https://github.com/Chilanzi-thirt33n/FRONTEND-MENTOR-QRCODE)
-- Live Site URL: [Qr-Code](![](/images/Screenshorts/2022-05-12_16-21.png))
+- Live Site URL: [Qr-Code](https://chilanzi-thirt33n.github.io/FRONTEND-MENTOR-QRCODE/)
 
 ## My process
 
