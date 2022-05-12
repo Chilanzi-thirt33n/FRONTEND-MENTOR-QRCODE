@@ -28,13 +28,9 @@ $Dark-blue: hsl(218, 44%, 22%);
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        gap: 20;
+        gap: .01px;
         background-color: $White;
         border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
         //********Flex items********
         figure {
             flex: auto;

@@ -9,19 +9,6 @@ $Dark-blue: hsl(218, 44%, 22%);
     src: url("../font/Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
 }
 
-//*********************VARIABLE DECLARATION STYLES********************
-$White: hsl(0,
-0%,
-100%);
-$Light-gray: hsl(212,
-45%,
-89%);
-$Grayish-blue: hsl(220,
-15%,
-55%);
-$Dark-blue: hsl(218,
-44%,
-22%);
 //************************DEFAULT SETTINGS****************************
 @font-face {
     font-family: "Outfit";
@@ -46,13 +33,9 @@ $Dark-blue: hsl(218,
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        gap: 20;
+        gap: .01px;
         background-color: $White;
         border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
         //********Flex items********
         figure {
             flex: auto;
