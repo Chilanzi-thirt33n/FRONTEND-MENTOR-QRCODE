@@ -1,0 +1,81 @@
+//*********************VARIABLE DECLARATION STYLES********************
+$White: hsl(0, 0%, 100%);
+$Light-gray: hsl(212, 45%, 89%);
+$Grayish-blue: hsl(220, 15%, 55%);
+$Dark-blue: hsl(218, 44%, 22%);
+//************************DEFAULT SETTINGS****************************
+@font-face {
+    font-family: "Outfit";
+    src: url("../font/Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+//*********************VARIABLE DECLARATION STYLES********************
+$White: hsl(0,
+0%,
+100%);
+$Light-gray: hsl(212,
+45%,
+89%);
+$Grayish-blue: hsl(220,
+15%,
+55%);
+$Dark-blue: hsl(218,
+44%,
+22%);
+//************************DEFAULT SETTINGS****************************
+@font-face {
+    font-family: "Outfit";
+    src: url("../font/Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+//************************** TABLET ***************************
+@media screen and (min-width: 502px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    //************** main ***************
+    main {
+        margin: 3em 28%;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20;
+        background-color: $White;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        //********Flex items********
+        figure {
+            flex: auto;
+            padding: 0;
+            margin: .9em;
+        }
+        h1 {
+            padding: .3em 1.3em .5em;
+            margin-bottom: 0;
+            margin-top: .2em;
+        }
+        p {
+            padding: .5em 1.7em 2em;
+            margin-top: 0;
+        }
+    }
+    //************* footer ****************
+    footer {
+        position: relative;
+        top: 3em;
+        p {
+            color: $Grayish-blue;
+            padding: .5em;
+        }
+    }
+}

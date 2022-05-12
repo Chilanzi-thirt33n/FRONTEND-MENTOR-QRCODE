@@ -1,0 +1,53 @@
+//*********************VARIABLE DECLARATION STYLES********************
+$White: hsl(0, 0%, 100%);
+$Light-gray: hsl(212, 45%, 89%);
+$Grayish-blue: hsl(220, 15%, 55%);
+$Dark-blue: hsl(218, 44%, 22%);
+//************************DEFAULT SETTINGS****************************
+@font-face {
+    font-family: "Outfit";
+    src: url("../font/Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    background-color: $Light-gray;
+    //**inside body default settings
+     ::after,
+     ::before {
+        box-sizing: inherit;
+    }
+    img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:link {
+        color: $Dark-blue;
+    }
+    a:visited {
+        color: $Dark-blue;
+    }
+    a:hover {
+        color: $Grayish-blue;
+        text-decoration: underline;
+    }
+    a:active {
+        color: $White;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 22px;
+        color: $Dark-blue;
+    }
+    p {
+        font-weight: 400;
+        font-size: 15px;
+        color: $Light-gray;
+    }
+}
